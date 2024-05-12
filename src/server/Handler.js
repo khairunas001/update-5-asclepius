@@ -4,7 +4,7 @@ const storeData = require('../services/storeData');
 
 const admin = require('firebase-admin');
 
-const serviceAccount = require('../../submissionmlgc-khairunasrw-f8d94bba89e2.json');
+const serviceAccount = require('https://storage.googleapis.com/model-machine-learning-khairunasrw/submissionmlgc-khairunasrw-f8d94bba89e2.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
